@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial{
+            background-color: rgba(0, 0, 0, 0.301);
+        }
+        .especial::after{
+            content: '♚';
+        }
+        .especial::before{
+            content: '♚';
+        }
+    </style>
+</head>
+<body>
+    <h1>configurando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UC3Vjekzob7zBTzDFdHFQpRA" target="_blank" >canal do youtube</a></li>
+        <li><a href="https://github.com/drgzz?tab=repositories" target="_blank">repositorio do Github</a></li>
+        <li><a href="https://www.google.com/search?sca_esv=5014365ea73166c6&sca_upv=1&sxsrf=ADLYWII4_lPbpstYY4X7av7jJZUn5lJ65w:1722206776919&q=dutch+van+der+linde&udm=2&fbs=AEQNm0AuaLfhdrtx2b9ODfK0pnmi046uB92frSWoVskpBryHTrdWqiVbaH6EqK0Fq9hkAkqRDuhGs7UQnPtZiL0Bzcj78aaFR2vnR4DfQyahVzxKNZ-VoKcrAD9jNGPqmm8itYsMJ63gZJ3Jv7vncW47bra6m41W0olgyz_o1Llfv8ZXMt4nMs99xDUCwxjjkpV60H1-NE5oNu26DMHChVOYz41OnijEXQ&sa=X&ved=2ahUKEwii4quZ6MqHAxUlH7kGHViYJrMQtKgLegQIDxAB&biw=1517&bih=712&dpr=0.9" class="especial" target="_blank" >imagens do Dutch Van Der Linde</a></li>
+    </ul>
+</body>
+</html>
